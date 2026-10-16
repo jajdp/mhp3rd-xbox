@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mhp3rd-xbox (Recompilaciones) - el manifiesto del paquete UWP.
+
+     CAMBIALO antes de empaquetar: Identity Name, Publisher (IDENTICO al sujeto de tu certificado),
+     PhoneProductId (un GUID propio) y PublisherDisplayName. La Version la pone el guion de
+     construccion, y sube en cada paquete nuevo. docs/INSTALL.es.md §5. -->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <Identity
+    Name="CHANGE-ME-MHP3rd"
+    Publisher="CN=CHANGE-ME"
+    Version="0.1.0.7"
+    ProcessorArchitecture="x64" />
+
+  <mp:PhoneIdentity PhoneProductId="00000000-0000-0000-0000-000000000001" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>Monster Hunter Portable 3rd Recomp</DisplayName>
+    <PublisherDisplayName>CHANGE-ME</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="en-us"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="Yakumo.exe"
+      EntryPoint="Yakumo.App">
+      <uap:VisualElements
+        DisplayName="Monster Hunter Portable 3rd Recomp"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
+        Description="Yakumo v0.6.0-alpha.4 (TeamGDB), port UWP para la Xbox en modo desarrollador, con Vulkan sobre Dozen"
+        BackgroundColor="transparent">
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>
