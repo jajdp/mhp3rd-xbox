@@ -2,6 +2,15 @@
 
 All notable changes to this repository. Dates are `YYYY-MM-DD`.
 
+## [1.0.2] — 2026-10-20
+
+### Changed
+
+- **The README now says which console this was tested on, and which one it was not.** Everything here
+  was built and measured on an **Xbox Series X** in Developer Mode; a **Series S has never been tried**,
+  so nothing here says anything about one. The wording used to say "Xbox Series", which reads as if it
+  covered both, and it does not.
+
 ## [1.0.1] — 2026-10-16
 
 ### Fixed
