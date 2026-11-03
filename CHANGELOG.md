@@ -16,11 +16,12 @@ All notable changes to this repository. Dates are `YYYY-MM-DD`.
 ### Fixed
 
 - **`LICENSE`: the explanatory block named the wrong project.** Everything after the MIT text had
-  been copied from the `dkr-xbox` repository and never adapted: it said this was a derivative of
-  Golden Balloon, denied granting rights in Diddy Kong Racing, quoted "the 57 lines of the upstream
-  project", and listed folders this repository does not have. The MIT grant itself was correct all
-  along, and `NOTICE.md` always had the right figures. The block now names TeamGDB/Yakumo (MIT) and
-  Monster Hunter Portable 3rd, and points at `NOTICE.md` for the measurements instead of repeating a number.
+  been copied from another repository in this catalogue and never adapted: it said this was a
+  derivative of a different project altogether, denied granting rights in a game that is not this
+  one, quoted "the 57 lines of the upstream project", and listed folders this repository does not
+  have. The MIT grant itself was correct all along, and `NOTICE.md` always had the right figures.
+  The block now names TeamGDB/Yakumo (MIT) and Monster Hunter Portable 3rd, and points at
+  `NOTICE.md` for the measurements instead of repeating a number.
 
 ## [1.0.0] — 2026-10-13
 
