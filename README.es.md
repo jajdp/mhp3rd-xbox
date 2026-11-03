@@ -84,6 +84,18 @@ El detalle está en **[`docs/HOW-IT-WORKS.es.md`](docs/HOW-IT-WORKS.es.md)**.
 
 ## Créditos y licencia
 
+**Casi nada de lo que hace que esto funcione es nuestro.** Este repositorio es una receta que une el trabajo de otros; sin cualquiera de estas piezas no habría port.
+
+| Qué hace | Quién lo hizo | Licencia |
+|---|---|---|
+| **[Yakumo](https://github.com/TeamGDB/Yakumo)** — recompila estáticamente un juego de PSP | **TeamGDB** | MIT |
+| **[SDL](https://github.com/libsdl-org/SDL)** — ventana, mando y audio | **Sam Lantinga** and the SDL contributors | zlib |
+| **[Mesa](https://mesa3d.org)** — la implementación de OpenGL que se usa en la consola | the **Mesa** contributors | MIT |
+| **[FFmpeg](https://ffmpeg.org)** — decodificación de vídeo | the **FFmpeg** contributors | LGPL/GPL |
+
+**La receta de empaquetado, las herramientas y esta documentación** son de **Recompilaciones**.
+
+
 Port y herramientas de **Recompilaciones**, bajo la [MIT](LICENSE), la misma de
 [Yakumo](https://github.com/TeamGDB/Yakumo), que es el código que esto parchea.
 
